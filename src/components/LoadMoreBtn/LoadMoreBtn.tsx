@@ -4,7 +4,7 @@ type LoadMoreBtnProps = {
   onClick: () => void;
 };
 
-export const LoadMoreBtn = ({ onClick }: LoadMoreBtnProps): JSX.Element => {
+export const LoadMoreBtn = ({ onClick }: LoadMoreBtnProps): React.ReactElement => {
   return (
     <button className={styles.button} onClick={onClick}>
       Load More

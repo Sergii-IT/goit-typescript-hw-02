@@ -1,6 +1,6 @@
 import styles from './Loader.module.css';
 
-const Loader = (): JSX.Element => {
+const Loader = (): React.ReactElement => {
   return (
     <div className={styles.loaderBackdrop}>
       <div className={styles.loader}></div>
